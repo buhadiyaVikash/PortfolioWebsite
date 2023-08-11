@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikash's Portfolio web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: rgb(2, 2, 29);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(21, 21, 63);
+            height: 70px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* border: 2px solid green; */
+            margin: 80px 0px;
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+        }
+
+        .leftSection {
+            font-size: 2.5rem;
+            /* margin: 80px 0px; */
+            /* background-color: red; */
+        }
+
+        .rightSection {
+            /* background-color: red; */
+        }
+
+        .rightSection img {
+            /* background-color: red; */
+            width: 80%;
+
+        }
+
+        .purple {
+            color: rgb(185, 109, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Vikash's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact me</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- first section  -->
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Vikash</span>
+                <div>and I am a passionate </div>
+                <div>Web Devloper</div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
